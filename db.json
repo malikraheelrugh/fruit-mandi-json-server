@@ -1,0 +1,66 @@
+{
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Mohan Fruits",
+      "contact": "9876543210",
+      "fruits": ["Apples", "Oranges"],
+      "location": "District Market",
+      "joinDate": "2023-01-15",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Gopal Orchard",
+      "contact": "9123456789",
+      "fruits": ["Bananas", "Mangoes"],
+      "location": "Village Market",
+      "joinDate": "2023-02-20",
+      "status": "Active"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "City Supermarket",
+      "contact": "9123456780",
+      "type": "Retail",
+      "creditLimit": 50000,
+      "outstanding": 15000,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Fresh Mart",
+      "contact": "9988776655",
+      "type": "Wholesale",
+      "creditLimit": 100000,
+      "outstanding": 25000,
+      "status": "Active"
+    }
+  ],
+  "clerks": [
+    {
+      "id": 1,
+      "name": "Ramesh Kumar",
+      "email": "ramesh@example.com",
+      "phone": "9876543211",
+      "joinDate": "2023-02-01",
+      "status": "Active"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "supplierId": 1,
+      "clientId": 1,
+      "fruitType": "Apples",
+      "quantity": 50,
+      "unit": "kg",
+      "rate": 300,
+      "totalAmount": 15000,
+      "date": "2024-01-15",
+      "status": "Completed"
+    }
+  ]
+}
